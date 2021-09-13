@@ -54,7 +54,6 @@
 		<string>Info.plist:UISupportedInterfaceOrientations~iPhone</string>
 		<string>Info.plist:UISupportedInterfaceOrientations~iPad</string>
 		<string>Info.plist:ITSAppUsesNonExemptEncryption</string>
-		<string>Info.plist:UIApplicationSceneManifest</string>
 		<string>Info.plist:UIApplicationSupportsIndirectInputEvents</string>
 		<string>Base.lproj/LaunchScreen.storyboard</string>
 	</array>
@@ -100,7 +99,7 @@
 		<string>&lt;key&gt;ITSAppUsesNonExemptEncryption&lt;/key&gt;
 &lt;false/&gt;
 </string>
-		<key>Info.plist:UIApplicationSceneManifest</key>
+		<key>Info.plist:UIApplicationSceneManifest-Swift</key>
 		<string>&lt;key&gt;UIApplicationSceneManifest&lt;/key&gt;
 &lt;dict&gt;
 &lt;key&gt;UIApplicationSupportsMultipleScenes&lt;/key&gt;
@@ -114,6 +113,25 @@
 &lt;string&gt;Default Configuration&lt;/string&gt;
 &lt;key&gt;UISceneDelegateClassName&lt;/key&gt;
 &lt;string&gt;$(PRODUCT_MODULE_NAME).___VARIABLE_classPrefix___SceneDelegate&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/array&gt;
+&lt;/dict&gt;
+&lt;/dict&gt;
+</string>
+		<key>Info.plist:UIApplicationSceneManifest-ObjectiveC</key>
+		<string>&lt;key&gt;UIApplicationSceneManifest&lt;/key&gt;
+&lt;dict&gt;
+&lt;key&gt;UIApplicationSupportsMultipleScenes&lt;/key&gt;
+&lt;true/&gt;
+&lt;key&gt;UISceneConfigurations&lt;/key&gt;
+&lt;dict&gt;
+&lt;key&gt;UIWindowSceneSessionRoleApplication&lt;/key&gt;
+&lt;array&gt;
+&lt;dict&gt;
+&lt;key&gt;UISceneConfigurationName&lt;/key&gt;
+&lt;string&gt;Default Configuration&lt;/string&gt;
+&lt;key&gt;UISceneDelegateClassName&lt;/key&gt;
+&lt;string&gt;___VARIABLE_classPrefix___SceneDelegate&lt;/string&gt;
 &lt;/dict&gt;
 &lt;/array&gt;
 &lt;/dict&gt;
@@ -154,6 +172,27 @@
 			<string>text</string>
 			<key>Placeholder</key>
 			<string>XYZ</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Info.plist:UIApplicationSceneManifest-ObjectiveC</string>
+					</array>
+				</dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Info.plist:UIApplicationSceneManifest-Swift</string>
+					</array>
+				</dict>
+			</dict>
 		</dict>
 	</array>
 </dict>

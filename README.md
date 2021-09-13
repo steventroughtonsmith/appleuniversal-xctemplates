@@ -1,6 +1,6 @@
 # catalyst-xctemplates
 
-Basic Mac Catalyst templates for Xcode 11+.
+Basic Mac Catalyst templates for Xcode 11+. Swift & Objective-C.
 
 ## Installation
 
