@@ -5,7 +5,7 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>dk.simonbs.dt.unit.iosBase</string>
+	<string>com.highcaffeinecontent.catalyst.base</string>
 	<key>Ancestors</key>
 	<array>
 		<string>com.apple.dt.unit.applicationBase</string>
@@ -113,7 +113,7 @@
 &lt;key&gt;UISceneConfigurationName&lt;/key&gt;
 &lt;string&gt;Default Configuration&lt;/string&gt;
 &lt;key&gt;UISceneDelegateClassName&lt;/key&gt;
-&lt;string&gt;$(PRODUCT_MODULE_NAME).SceneDelegate&lt;/string&gt;
+&lt;string&gt;$(PRODUCT_MODULE_NAME).___VARIABLE_classPrefix___SceneDelegate&lt;/string&gt;
 &lt;/dict&gt;
 &lt;/array&gt;
 &lt;/dict&gt;
@@ -142,6 +142,19 @@
 		</dict>
 	</dict>
 	<key>Options</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>classPrefix</string>
+			<key>Name</key>
+			<string>Class Prefix</string>
+			<key>Description</key>
+			<string>The prefix to prepend to all created classes</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Placeholder</key>
+			<string>XYZ</string>
+		</dict>
+	</array>
 </dict>
 </plist>

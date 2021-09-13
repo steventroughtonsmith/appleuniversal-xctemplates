@@ -8,22 +8,14 @@
 
 import UIKit
 
-final class MainView: UIView {
+final class ___VARIABLE_classPrefix___MainViewController: UIViewController {
+
     init() {
-        super.init(frame: .zero)
-        setupView()
-        setupLayout()
+        super.init(nibName: nil, bundle: nil)
+        title = "___PROJECTNAME___"
     }
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-
-    private func setupView() {
-        backgroundColor = .systemBackground
-    }
-
-    private func setupLayout() {
-
     }
 }

@@ -1,8 +1,6 @@
-# xctemplates
+# catalyst-xctemplates
 
-Opinionated templates for Xcode 11.
-
-<img src="https://raw.githubusercontent.com/simonbs/xctemplates/master/imgs/header.png" width="450">
+Basic Mac Catalyst templates for Xcode 11+.
 
 ## Installation
 
@@ -12,12 +10,10 @@ The project templates should be copied into the  `~/Library/Developer/Xcode/Temp
 
 Below is a brief description of the templates in this repository.
 
-### iOS Base
+### Catalyst Base
 
-This is not an actual project template. It contains the base configuration for an iOS project an is inherited by other project templates.
+This is not an actual project template. It contains the base configuration for a Catalyst project and is inherited by other project templates.
 
-### iOS Minimalist
+### Catalyst App (Basic)
 
-This is a minimalistic template for an iOS project. It configures the app to use scenes without storyboards.
-
-<img src="https://raw.githubusercontent.com/simonbs/xctemplates/master/imgs/ios_minimalist.png" width="250">
+This is a minimalistic template for a Mac Catalyst project using the Mac Idiom and targeting macOS 11. It configures the app to use scenes without storyboards, enables warnings-as-errors for both Swift & Objective-C, and prompts you for a class prefix.
