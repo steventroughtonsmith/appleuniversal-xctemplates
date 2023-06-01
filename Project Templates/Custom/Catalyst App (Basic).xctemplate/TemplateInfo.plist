@@ -33,9 +33,7 @@
 				<key>TARGETED_DEVICE_FAMILY</key>
 				<string>1,2,6</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>14.0</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]</key>
-				<string>14.2</string>
+				<string>latest_iphoneos</string>
 				<key>SWIFT_TREAT_WARNINGS_AS_ERRORS</key>
 				<string>YES</string>
 				<key>RUN_CLANG_STATIC_ANALYZER</key>
