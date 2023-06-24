@@ -1,6 +1,6 @@
 # catalyst-xctemplates
 
-Basic Universal (iOS, macOS, visionOS) templates for Xcode 11+. Swift & Objective-C.
+Basic Universal (iOS, macOS, visionOS) UIKit-based templates for Xcode 11+. Swift & Objective-C.
 
 ## Screenshot
 
