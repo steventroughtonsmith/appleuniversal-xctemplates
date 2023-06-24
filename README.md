@@ -1,6 +1,6 @@
 # catalyst-xctemplates
 
-Basic Mac Catalyst templates for Xcode 11+. Swift & Objective-C.
+Basic Universal (iOS, macOS, visionOS) templates for Xcode 11+. Swift & Objective-C.
 
 ## Screenshot
 
@@ -14,10 +14,11 @@ The project templates should be copied into the  `~/Library/Developer/Xcode/Temp
 
 Below is a brief description of the templates in this repository.
 
-### Catalyst Base
+### Universal Base
 
-This is not an actual project template. It contains the base configuration for a Catalyst project and is inherited by other project templates.
+This is not an actual project template. It contains the base configuration for a Universal project and is inherited by other project templates.
 
-### Catalyst App (Basic)
+### Universal App (Basic)
 
-This is a minimalistic template for a Mac Catalyst project using the Mac Idiom and targeting macOS 11. It configures the app to use scenes without storyboards, enables warnings-as-errors for both Swift & Objective-C, and prompts you for a class prefix.
+This is a minimalistic template for a Universal project using the Mac Idiom on macOS, and targeting the latest OS. It configures the app to use scenes without 
+storyboards, enables warnings-as-errors for both Swift & Objective-C, and prompts you for a class prefix.
