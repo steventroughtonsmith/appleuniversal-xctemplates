@@ -22,4 +22,10 @@
 	return self;
 }
 
+#if TARGET_OS_XR
+-(UIContainerBackgroundStyle)preferredContainerBackgroundStyle {
+	return UIContainerBackgroundStyleGlass;
+}
+#endif
+
 @end

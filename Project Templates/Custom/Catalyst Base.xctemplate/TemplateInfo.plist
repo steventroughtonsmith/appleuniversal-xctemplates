@@ -194,6 +194,27 @@
 				</dict>
 			</dict>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>deployment_target</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Name</key>
+			<string>Deployment Target</string>
+			<key>Description</key>
+			<string>Select the minimum iOS version to support.</string>
+			<key>Default</key>
+			<string>latest_iphoneos</string>
+			<key>Values</key>
+			<array>
+				<string>latest_iphoneos</string>
+				<string>13.0</string>
+				<string>14.0</string>
+				<string>15.0</string>
+				<string>16.0</string>
+				<string>17.0</string>
+			</array>
+		</dict>
 	</array>
 </dict>
 </plist>

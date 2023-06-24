@@ -18,4 +18,10 @@ final class ___VARIABLE_classPrefix___MainViewController: UIViewController {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+	
+	#if os(xrOS)
+	override var preferredContainerBackgroundStyle: UIContainerBackgroundStyle {
+		return .glass
+	}
+	#endif
 }

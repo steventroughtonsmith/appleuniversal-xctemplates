@@ -30,10 +30,12 @@
 			<dict>
 				<key>SUPPORTS_MACCATALYST</key>
 				<string>YES</string>
+				<key>SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD</key>
+				<string>NO</string>
 				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2,6</string>
+				<string>1,2,6,7</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>latest_iphoneos</string>
+				<string>___VARIABLE_deployment_target___</string>
 				<key>SWIFT_TREAT_WARNINGS_AS_ERRORS</key>
 				<string>YES</string>
 				<key>RUN_CLANG_STATIC_ANALYZER</key>
@@ -46,6 +48,8 @@
 				<string>deep</string>
 				<key>INFOPLIST_FILE</key>
 				<string>$(PRODUCT_NAME)/Info.plist</string>
+				<key>SUPPORTED_PLATFORMS</key>
+				<string>iphoneos iphonesimulator xros xrsimulator</string>
 			</dict>
 		</dict>
 	</array>
