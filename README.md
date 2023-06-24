@@ -2,6 +2,10 @@
 
 Basic Mac Catalyst templates for Xcode 11+. Swift & Objective-C.
 
+## Screenshot
+
+![https://hccdata.s3.amazonaws.com/gh_template.jpg](https://hccdata.s3.amazonaws.com/gh_template.jpg)
+
 ## Installation
 
 The project templates should be copied into the  `~/Library/Developer/Xcode/Templates/Project\ Templates` folder. You can do this by running the `./copy` script. This will recursively copy the folders containing the project templates. Alternatively you can symlink the folders by running the `./symlink` script. 
