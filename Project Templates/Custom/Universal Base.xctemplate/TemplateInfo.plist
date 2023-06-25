@@ -11,6 +11,7 @@
 		<string>com.apple.dt.unit.applicationBase</string>
 		<string>com.apple.dt.unit.iosBase_Definitions</string>
 		<string>com.apple.dt.unit.crossPlatformBase</string>
+		<string>com.apple.dt.unit.prefixable</string>
 	</array>
 	<key>Platforms</key>
 	<array>
@@ -172,6 +173,8 @@
 			<string>text</string>
 			<key>Placeholder</key>
 			<string>XYZ</string>
+			<key>Required</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
