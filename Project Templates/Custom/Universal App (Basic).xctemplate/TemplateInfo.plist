@@ -307,5 +307,10 @@
 			</dict>
 		</dict>
 	</array>
+	<key>Image</key>
+	<dict>
+		<key>SystemSymbolName</key>
+		<string>macbook.and.ipad</string>
+	</dict>
 </dict>
 </plist>
