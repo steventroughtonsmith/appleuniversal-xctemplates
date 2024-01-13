@@ -31,7 +31,7 @@
 				<key>TARGETED_DEVICE_FAMILY</key>
 				<string>1,2</string>
 				<key>SDKROOT</key>
-				<string>iphoneos</string>
+				<string>auto</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>latest_iphoneos</string>
 				<key>CODE_SIGN_IDENTITY</key>
