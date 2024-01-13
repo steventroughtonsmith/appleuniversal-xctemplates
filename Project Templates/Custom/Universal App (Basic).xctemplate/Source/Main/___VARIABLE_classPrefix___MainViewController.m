@@ -22,7 +22,7 @@
 	return self;
 }
 
-#if TARGET_OS_XR
+#if TARGET_OS_VISION
 -(UIContainerBackgroundStyle)preferredContainerBackgroundStyle {
 	return UIContainerBackgroundStyleGlass;
 }
